@@ -133,26 +133,26 @@
     "widget.border":"#ffffff15"},
     "tokenColors":[{"settings":{"foreground":"#fff"}},
     {"scope":["meta.embedded","source.groovy.embedded","string meta.image.inline.markdown"],"settings":{"foreground":"#ffffffdc"}},
-    {"name":"Comments","scope":["comment","string.quoted.docstring"],"settings":{"foreground":"#88846f"}},
-    {"name":"String","scope":"string","settings":{"foreground":"#ffffffdc"}},                                                   //STRING
+    {"name":"Comments","scope":["comment","string.quoted.docstring"],"settings":{"foreground":"#88846f"}},                               //comentarios
+    {"name":"String","scope":"string","settings":{"foreground":"#ffffffdc"}},                                                            //STRING
     {"name":"Template Definition","scope":["punctuation.definition.template-expression","punctuation.section.embedded"],"settings":{"foreground":"#F92672"}},
     {"name":"Reset JavaScript string interpolation expression","scope":["meta.template.expression"],"settings":{"foreground":"#ffffffdc"}},
-    {"name":"Number","scope":"constant.numeric","settings":{"foreground":"#fc5c46"}},                                          // NUMBER
+    {"name":"Number","scope":"constant.numeric","settings":{"foreground":"#fc5c46"}},                                                    // NUMBER
     {"name":"Built-in constant","scope":"constant.language","settings":{"foreground":"#cdb2ff"}},
     {"name":"User-defined constant","scope":"constant.character, constant.other","settings":{"foreground":"#cdb2ff"}},
     {"name":"Variable","scope":"variable","settings":{"fontStyle":"","foreground":"#f1f579"}},
-    {"name":"Keyword","scope":"keyword","settings":{"foreground":"#ffffffdc"}},                 // % px fr                                                                           //sinal de mais, menos, etc
+    {"name":"Keyword","scope":"keyword","settings":{"foreground":"#ffffffdc"}},                                                          // % px fr    sinal de mais, menos, etc
     {"name":"Storage","scope":"storage","settings":{"fontStyle":"","foreground":"#F92672"}},
     {"name":"Storage type","scope":"storage.type","settings":{"fontStyle":"italic","foreground":"#ffffffdc"}},
     {"name":"Class name","scope":"entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution","settings":{"fontStyle":"underline","foreground":"#d1ff74"}},
     {"name":"Inherited class","scope":"entity.other.inherited-class","settings":{"fontStyle":"italic underline","foreground":"#d1ff74"}},
-    {"name":"Function name","scope":"entity.name.function","settings":{"fontStyle":"italic","foreground":"#fc5c46"}},
-    {"name":"Function argument","scope":"variable.parameter","settings":{"fontStyle":"italic","foreground":"#f200ff"}},         // argumento da funcao
+    {"name":"Function name","scope":"entity.name.function","settings":{"fontStyle":"italic","foreground":"#fc5c46"}},  
+    {"name":"Function argument","scope":"variable.parameter","settings":{"fontStyle":"italic","foreground":"#f200ff"}},                  // argumento da funcao
     {"name":"Tag name","scope":"entity.name.tag","settings":{"fontStyle":"","foreground":"#7d8eff"}},
     {"name":"Tag attribute","scope":"entity.other.attribute-name","settings":{"fontStyle":"italic","foreground":"#d1ff74"}},
     {"name":"Library function","scope":"support.function","settings":{"fontStyle":"","foreground":"#faa339"}},
-    {"name":"Library constant","scope":"support.constant","settings":{"fontStyle":"","foreground":"#faa339"}},                     //é uma parada pra ipo funcoes no javascript    classlist
-    {"name":"Library class/type","scope":"support.type, support.class","settings":{"fontStyle":"italic","foreground":"#4dff83dc"}},     //atributo do css, "display" "width"
+    {"name":"Library constant","scope":"support.constant","settings":{"fontStyle":"","foreground":"#faa339"}},                          //é uma parada pra ipo funcoes no javascript    classlist
+    {"name":"Library class/type","scope":"support.type, support.class","settings":{"fontStyle":"italic","foreground":"#ffffffdc"}},     //atributo do css, "display" "width"
     {"name":"Library variable","scope":"support.other.variable","settings":{"fontStyle":""}},
     {"name":"Invalid","scope":"invalid","settings":{"fontStyle":"","foreground":"#F44747"}},
     {"name":"Invalid deprecated","scope":"invalid.deprecated","settings":{"foreground":"#F44747"}},
