@@ -141,8 +141,8 @@
     {"name":"Built-in constant","scope":"constant.language","settings":{"foreground":"#cdb2ff"}},
     {"name":"User-defined constant","scope":"constant.character, constant.other","settings":{"foreground":"#cdb2ff"}},
     {"name":"Variable","scope":"variable","settings":{"fontStyle":"","foreground":"#f1f579"}},
-    {"name":"Keyword","scope":"keyword","settings":{"fontStyle":"bold","foreground":"#fff"}},                                         // % px fr    sinal de mais, menos,    NEW para criar instancias, etc
-    {"name":"Storage","scope":"storage","settings":{"foreground":"#ff0000"}},                                                             //extends, usado para fazer herança no javascript
+    {"name":"Keyword","scope":"keyword","settings":{"foreground":"#ffffffdc"}},                                         // % px fr    sinal de mais, menos,    NEW para criar instancias, etc
+    {"name":"Storage","scope":"storage","settings":{"foreground":"#ffffffdc"}},                                                             //extends, usado para fazer herança no javascript
     {"name":"Storage type","scope":"storage.type","settings":{"foreground":"#ffffffdc"}},                                             // const, class, 
     {"name":"Class name","scope":"entity.name.type, entity.name.class, entity.name.namespace, entity.name.scope-resolution","settings":{"fontStyle":"italic bold","foreground":"#69ff55"}},
     {"name":"Inherited class","scope":"entity.other.inherited-class","settings":{"fontStyle":"","foreground":"#69ff55"}},                // função contrutora ou classe
